@@ -15,6 +15,7 @@ school where I had to get atmospheric values at certain altitudes. May or may no
 ## Licencing, thanks ##
 
 This workflow is released under the [MIT licence][mit].
+
 This workflow uses the [Alfred-Workflow][aw] library, which is also released under the [MIT licence][mit].
 
 
