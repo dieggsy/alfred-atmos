@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.therockmandolinist.alfred-atmos</string>
+	<key>category</key>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
@@ -38,7 +40,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>python atmos.py $1</string>
+				<string>python atmos.py "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -72,6 +74,8 @@
 			<integer>10</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/therockmandolinist</string>
 </dict>
