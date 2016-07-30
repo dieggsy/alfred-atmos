@@ -14,7 +14,7 @@ atmospheric values at certain altitudes. May or may not be useful to you.
 
 ## Demo ##
 
-[[https://github.com/therockmandolinist/alfred-atmos/blob/master/demo.gif]]
+![Demo](https://github.com/therockmandolinist/alfred-atmos/blob/master/demo.gif)
 
 ## Licencing, thanks ##
 
