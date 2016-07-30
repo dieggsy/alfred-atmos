@@ -23,6 +23,10 @@ This workflow uses the [Alfred-Workflow][aw] library, which is also released und
 
 ## Changelog ##
 
+### 1.0.2 ###
+
+- Added clipboard paste
+
 ### 1.0.1 ###
 
 - First release
