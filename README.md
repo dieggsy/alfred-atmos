@@ -1,11 +1,13 @@
 # Atmos #
 
-Python port of Matlab's atmosisa
+Python port of Matlab's atmosisa.
 
+Retrieves temperature, speed of sound, pressure, and density at queried altitude. I mostly created this for one particular semester in
+school where I had to get atmospheric values at certain altitudes. May or may not be useful to you.
 
 ## Usage ##
 
-- `atmos` — Show temperature, speed of sound, pressure, and density according to ISA model.
+- `atmos <query>` — Show values for altitude <query>. Defaults to meters, but if query ends in `f` or `ft`, the proper conversion is made.
     - `↩` or `⌘+<NUM>` — Copy result to clipboard
 
 
