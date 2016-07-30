@@ -1,11 +1,9 @@
 # Atmos #
 
-Alfred workflow to query a python port of Matlab's [atmosisa][atm].
+Retrieves temperature, speed of sound, pressure, and density at queried altitude,
+acording on International Standar Atmosphere model.
 
-Retrieves temperature, speed of sound, pressure, and density at queried altitude.
-
-I mostly created this for one particular semester in school where I had to get
-ISA values at certain altitudes very often. May or may not be useful to you.
+Basically a python port of Matlab's [atmosisa][atm].
 
 ## Usage ##
 
