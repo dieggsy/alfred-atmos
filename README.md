@@ -1,7 +1,7 @@
 # Atmos #
 
-Retrieves temperature, speed of sound, pressure, and density at queried altitude,
-acording on International Standar Atmosphere model.
+An Alfred workflow to find temperature, speed of sound, pressure, and density at queried altitude,
+acording on International Standard Atmosphere model.
 
 Basically a python port of Matlab's [atmosisa][atm].
 
