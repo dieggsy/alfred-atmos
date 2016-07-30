@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>951C4DCE-33DB-43B4-A141-97060A6A8DA9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C88C0D21-4CAA-451F-9249-9AEF702256A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Diego A. Mundo</string>
 	<key>description</key>
@@ -18,6 +32,23 @@
 	<string>Atmos</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>C88C0D21-4CAA-451F-9249-9AEF702256A2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -70,6 +101,13 @@
 		<dict>
 			<key>xpos</key>
 			<integer>190</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>C88C0D21-4CAA-451F-9249-9AEF702256A2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>

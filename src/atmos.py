@@ -70,10 +70,14 @@ def main(wf):
             query = re.sub('[^\d.]', '', query, flags=re.I)
             vals = atmosisa(float(query))
 
-        wf.add_item(str(vals[0][0]), icon='T.png')
-        wf.add_item(str(vals[1][0]), icon='a.png')
-        wf.add_item(str(vals[2][0]), icon='P.png')
-        wf.add_item(str(+vals[3][0]), icon='rho.png')
+        wf.add_item(str(vals[0][0]), icon='T.png',
+                    arg=str(vals[0][0]), valid=True)
+        wf.add_item(str(vals[1][0]), icon='a.png',
+                    arg=str(vals[1][0]), valid=True)
+        wf.add_item(str(vals[2][0]), icon='P.png',
+                    arg=str(vals[2][0]), valid=True)
+        wf.add_item(str(+vals[3][0]), icon='rho.png',
+                    arg=str(vals[3][0]), valid=True)
     except:
         wf.add_item('Incorrect input', icon='icon.png')
     wf.send_feedback()
