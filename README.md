@@ -12,7 +12,9 @@ atmospheric values at certain altitudes. May or may not be useful to you.
 - `atmos <query>` — Show values for altitude <query>. Defaults to meters, but if query ends in `f` or `ft`, the proper conversion is made.
     - `↩` or `⌘+<NUM>` — Copy result to clipboard
 
+## Demo ##
 
+[atmos-demo][atmgif]
 
 ## Licencing, thanks ##
 
@@ -31,3 +33,4 @@ This workflow uses the [Alfred-Workflow][aw] library, which is also released und
 [mit]: ./src/LICENCE.txt
 [aw]: http://www.deanishe.net/alfred-workflow/
 [atm]: http://www.mathworks.com/help/aerotbx/ug/atmosisa.html
+[atmgif]: https://github.com/therockmandolinist/alfred-atmos/blob/master/demo.gif
