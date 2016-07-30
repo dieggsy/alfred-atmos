@@ -14,7 +14,7 @@ atmospheric values at certain altitudes. May or may not be useful to you.
 
 ## Demo ##
 
-[atmos-demo][atmgif]
+[[https://github.com/therockmandolinist/alfred-atmos/blob/master/demo.gif]]
 
 ## Licencing, thanks ##
 
@@ -33,4 +33,3 @@ This workflow uses the [Alfred-Workflow][aw] library, which is also released und
 [mit]: ./src/LICENCE.txt
 [aw]: http://www.deanishe.net/alfred-workflow/
 [atm]: http://www.mathworks.com/help/aerotbx/ug/atmosisa.html
-[atmgif]: https://github.com/therockmandolinist/alfred-atmos/blob/master/demo.gif
