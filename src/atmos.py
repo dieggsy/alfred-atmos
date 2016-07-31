@@ -59,11 +59,8 @@ def atmosisa(h):
 
 def main(wf):
     query = wf.args[0]
-    # print query
-    # print re.search('ft$|f$', query, flags = re.I)
     try:
         if re.search('ft$|f$', query, flags = re.I):
-#            print 'hello'
             query = re.sub('[^\d.]', '', query, flags=re.I)
             vals = atmosisa(float(query)*.3048)
         else:
@@ -74,7 +71,7 @@ def main(wf):
                     arg=str(vals[0][0]), valid=True)
         wf.add_item(str(vals[1][0])+' m/s', icon='a.png',
                     arg=str(vals[1][0]), valid=True)
-        wf.add_item(str(vals[2][0])+' N/m^2', icon='P.png',
+        wf.add_item(str(vals[2][0])+' Pa', icon='P.png',
                     arg=str(vals[2][0]), valid=True)
         wf.add_item(str(+vals[3][0])+' kg/m^3', icon='rho.png',
                     arg=str(vals[3][0]), valid=True)

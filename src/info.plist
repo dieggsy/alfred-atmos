@@ -92,11 +92,45 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"39280b3408881b60a89724349ad451398c4cba5c.png","title":"Temperature [K]"},{"imagefile":"ac84372b7e34392e67e3abfd1d0b29b81083ff6f.png","title":"Speed of sound [m\/s]"},{"imagefile":"a0f9b0c4e71e73a256281f43bd3da0a64a1ce6f0.png","title":"Pressure [Pa]"},{"imagefile":"48c8dc517de5907fe04623eadc8c031ac58e9082.png","title":"Density [kg\/m^3]"}]</string>
+				<key>keyword</key>
+				<string>atmoshelp</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Atmos description</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>2273F139-AAC9-443C-8D78-5C0650FBBD45</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>2273F139-AAC9-443C-8D78-5C0650FBBD45</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
 		<key>951C4DCE-33DB-43B4-A141-97060A6A8DA9</key>
 		<dict>
 			<key>xpos</key>
