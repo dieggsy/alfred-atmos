@@ -9,6 +9,7 @@ Basically a python port of Matlab's [atmosisa][atm].
 
 - `atmos <query>` — Show values for altitude <query>. Defaults to meters, but if query ends in `f` or `ft`, the proper conversion is made.
     - `↩` or `⌘+<NUM>` — Copy result to clipboard
+- `atmoshelp` — Describe values.
 
 ## Demo ##
 
@@ -22,6 +23,9 @@ This workflow uses the [Alfred-Workflow][aw] library, which is also released und
 
 
 ## Changelog ##
+### 1.0.3 ###
+- Added units
+- Added output description with `atmoshelp`.
 
 ### 1.0.2 ###
 
