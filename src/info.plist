@@ -71,7 +71,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>python atmos.py "$1"</string>
+				<string>/usr/local/bin/python3 atmos.py "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>

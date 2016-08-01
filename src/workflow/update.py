@@ -89,7 +89,7 @@ class Version(object):
         self._parse(vstr)
 
     def _parse(self, vstr):
-        if vstr.startswith('v'):
+        if vstr.startswith(b'v'):
             m = self.match_version(vstr[1:])
         else:
             m = self.match_version(vstr)

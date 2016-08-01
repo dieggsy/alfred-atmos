@@ -360,8 +360,7 @@ if __name__ == '__main__':  # pragma: nocover
             b'{0}{1}'.format(os.path.splitext(os.path.basename(o.png))[0],
                              '.icns'))
 
-        print('Converting {0!r} to {1!r} ...'.format(o.png, icns),
-              file=sys.stderr)
+        print('Converting {0!r} to {1!r} ...'.format(o.png, icns), file=sys.stderr)
 
         assert not os.path.exists(icns), (
             "Destination file already exists : {0}".format(icns))
@@ -375,3 +374,4 @@ if __name__ == '__main__':  # pragma: nocover
         sys.exit(1)
     else:
         notify(o.title, o.text, o.sound)
+
