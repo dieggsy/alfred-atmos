@@ -80,6 +80,6 @@ def main(wf):
     wf.send_feedback()
 
 
-if __name__ == u"__main__":
+if __name__ == "__main__":
     wf = Workflow()
     sys.exit(wf.run(main))
